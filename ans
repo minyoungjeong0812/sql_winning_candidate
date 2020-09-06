@@ -4,7 +4,7 @@ https://www.db-fiddle.com/f/gGs7Eo52pXBHBa1yj7P1Dp/0
 
 select Name
 from Candidate
-where id in
+where id =
 
 (select CandidateId
 from Vote
